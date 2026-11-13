@@ -1,0 +1,36 @@
+SECURITY INCIDENT & LOG TRIAGE REPORT
+=====================================
+Alert Threshold: 3 or more failed attempts per source IP
+
+1. FLAGGED SOURCE IPS (THRESHOLD EXCEEDED)
+------------------------------------------
+[ALERT] Source IP: 203.0.113.42 | Failed Attempts: 4
+[ALERT] Source IP: 198.51.100.77 | Failed Attempts: 3
+
+2. ALL FAILED LOGIN COUNTS BY IP
+--------------------------------
+203.0.113.42: 4 failed attempt(s)
+198.51.100.77: 3 failed attempt(s)
+192.0.2.15: 1 failed attempt(s)
+
+3. UNIQUE EXTRACTED IPV4 INDICATORS
+-----------------------------------
+- 10.0.0.14
+- 192.0.2.15
+- 192.168.1.10
+- 198.51.100.77
+- 203.0.113.42
+
+4. UNIQUE EXTRACTED EMAIL INDICATORS
+------------------------------------
+- admin@company.com
+- bmoreno@company.com
+- elarson@company.com
+- guest@company.com
+- root@company.com
+- tshah@company.com
+
+5. EXTRACTED USER LOGIN COUNT RECORDS
+-------------------------------------
+- bmoreno: 12
+- tshah: 7

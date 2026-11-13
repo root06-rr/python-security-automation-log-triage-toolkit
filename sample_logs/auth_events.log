@@ -1,0 +1,11 @@
+2026-11-10 08:12:04 INFO SUCCESS user=elarson@company.com ip=192.168.1.10
+2026-11-10 08:15:22 WARN FAILED user=admin@company.com ip=203.0.113.42
+2026-11-10 08:15:29 WARN FAILED user=admin@company.com ip=203.0.113.42
+2026-11-10 08:15:35 WARN FAILED user=admin@company.com ip=203.0.113.42
+2026-11-10 08:15:41 WARN FAILED user=root@company.com ip=203.0.113.42
+2026-11-10 09:02:11 INFO SUCCESS user=tshah@company.com ip=10.0.0.14
+2026-11-10 09:44:18 WARN FAILED user=bmoreno@company.com ip=198.51.100.77
+2026-11-10 09:45:02 WARN FAILED user=bmoreno@company.com ip=198.51.100.77
+2026-11-10 09:45:50 WARN FAILED user=bmoreno@company.com ip=198.51.100.77
+2026-11-10 10:11:05 WARN FAILED user=guest@company.com ip=192.0.2.15
+2026-11-10 10:30:00 INFO SUMMARY bmoreno: 12 tshah: 7
